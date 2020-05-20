@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "URL Shortner - Nith",
+  "version": "1.0.0",
+  "description": "THE SHORTEST URL SHORTNER",
+  "icons": {
+    "96": "img/Logo.png",
+    "32": "img/Logo.png",
+    "16": "img/Logo.png"
+  },
+  
+  "browser_action": {
+    "default_icon":"img/Logo.png",
+    "default_title": "URL Shortner - Nith",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "cookies",
+    "https://nith.ml/",
+    "activeTab"
+  ]
+}
